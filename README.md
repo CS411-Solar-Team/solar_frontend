@@ -12,5 +12,5 @@ Design a drone & robot delivery management system. We have a few bases in Boston
 Google API(text search)/Pakage delivery time/Google Geolocation API
 
 Data Sets:
-https://kilthub.cmu.edu/articles/dataset/Data_Collected_with_Package_Delivery_Quadcopter_Drone/12683453?file=26405936 -- info on drone deliveries
-https://data.boston.gov/dataset/traffic-related-data -- info on boston traffic, for contrast w/ drone services
+> https://kilthub.cmu.edu/articles/dataset/Data_Collected_with_Package_Delivery_Quadcopter_Drone/12683453?file=26405936 -- info on drone deliveries
+> https://data.boston.gov/dataset/traffic-related-data -- info on boston traffic, for contrast w/ drone services
