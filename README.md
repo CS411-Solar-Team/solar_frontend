@@ -1,7 +1,9 @@
 # CS411_Project
 .
+1. Travel Plan 
 
 
+3. Boston Delivery Management System
+Design a drone & robot delivery management system. We have a few bases in Boston to send out drone & robot to delivery package. Users can type their name pickup address, recevier's name and delivery address to create order in the order interface. The recomendartion system generate delivery plans based on users' inputs in the plan interface. Users can also register for an account and login/logout to review their delivery status. Use Google Geolocation API or Pubnub to visualize the delivery status on the Google Map.
 
- > Data Sets:
- > https://www.kaggle.com/c/package-delivery-time/data -- shows delivery times w/ conventional delivery
+Google API(text search)/Pakage delivery time/Google Geolocation API
