@@ -21,6 +21,7 @@ Design a drone & robot delivery management system. We have a few bases in Boston
 Many people, myself included, have issues tracking recurring payments. Some of the largest of these payments are utility bills, such as monthly AC, electric, or water bills. This app will help users track their bills: when they recur, how much they pay, and how their payments stack up versus nearby payments/providers. Users can register for accounts for a streamlined dashboard, where their bills pop up in the order they're due.
    > https://data.boston.gov/dataset/city-of-boston-utility-data 
    > https://utilityapi.com/
+   
 
 4. Solar:
 
@@ -29,4 +30,5 @@ This app will allow citizens to see how much they could save, monetarily & energ
    > https://data.boston.gov/dataset/city-of-boston-utility-data 
    > https://utilityapi.com/
    > https://www.causeweb.org/cause/resources/library/r1086
+   > https://developer.nrel.gov/docs/solar/solar-resource-v1/ -- gives exact metrics for solar energy production via long/lat
    > Can visualize solar savings with formulas (national average electricity rate as of October 2021 ($0.1411 per kWh) vs solar kWh)
