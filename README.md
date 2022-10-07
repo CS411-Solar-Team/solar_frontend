@@ -26,7 +26,7 @@ Many people, myself included, have issues tracking recurring payments. Some of t
 
 This app will allow citizens to see how much they could save, monetarily & energy-wise, by switching to solar power. Users can sign up for accounts and input details about their household: number of residents, avg utility costs, energy output(?), etc. They can then see how much cheaper their bills would be if they opted for greener solutions(solar panels, renewable energy, etc).
   APIs/Datasets:
-    > https://data.boston.gov/dataset/city-of-boston-utility-data 
-    > https://utilityapi.com/
-    > https://www.causeweb.org/cause/resources/library/r1086
-    > Can visualize solar savings with formulas (national average electricity rate as of October 2021 ($0.1411 per kWh) vs solar kWh)
+   > https://data.boston.gov/dataset/city-of-boston-utility-data 
+   > https://utilityapi.com/
+   > https://www.causeweb.org/cause/resources/library/r1086
+   > Can visualize solar savings with formulas (national average electricity rate as of October 2021 ($0.1411 per kWh) vs solar kWh)
