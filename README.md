@@ -32,4 +32,5 @@ This app will allow citizens to see how much they could save, monetarily & energ
    > https://www.causeweb.org/cause/resources/library/r1086
    > [https://developer.nrel.gov/docs/solar/solar-resource-v1/](https://solcast.com/) -- gives exact metrics for solar energy production via long/lat
    > https://developer.genability.com/how-to/bill-to-kwh/ -- specific task of genability api, which gives an estimate of a customer’s energy usage for a single billing period with just the cost of that bill.
+   > https://data.nrel.gov/submissions/149 -- community solar
    > Can visualize solar savings with formulas (national average electricity rate as of October 2021 ($0.1411 per kWh) vs solar kWh)
