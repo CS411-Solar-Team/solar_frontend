@@ -25,11 +25,11 @@ Many people, myself included, have issues tracking recurring payments. Some of t
 
 4. Solar:
 
-This app will allow citizens to see how much they could save, monetarily & energy-wise, by switching to solar power. Users can sign up for accounts and input details about their household: number of residents, avg utility costs, energy output(?), etc. They can then see how much cheaper their bills would be if they opted for greener solutions(solar panels, renewable energy, etc).
-  APIs/Datasets:
+This app will allow citizens to see how much they could save, monetarily & energy-wise, by switching to solar power. Users can sign up for accounts and input details about their household: number of residents, avg utility costs, energy output(?), etc. They can then see how much cheaper their bills would be if they opted for greener solutions(solar panels, renewable energy, etc). we can show potential energy generation vs compare solar kWh to local Boston electricity kWh bills.
+  APIs/Datasets: 3 API, one DS
    > https://data.boston.gov/dataset/city-of-boston-utility-data 
    > https://utilityapi.com/
    > https://www.causeweb.org/cause/resources/library/r1086
-   > https://developer.nrel.gov/docs/solar/solar-resource-v1/ -- gives exact metrics for solar energy production via long/lat
+   > [https://developer.nrel.gov/docs/solar/solar-resource-v1/](https://solcast.com/) -- gives exact metrics for solar energy production via long/lat
+   > 
    > Can visualize solar savings with formulas (national average electricity rate as of October 2021 ($0.1411 per kWh) vs solar kWh)
-   > https://developer.genability.com/how-to/bill-to-kwh/ specific task of API, which gives an estimate of a customer’s energy usage for a single billing period with just the cost of that bill.
