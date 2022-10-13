@@ -25,12 +25,8 @@ Many people, myself included, have issues tracking recurring payments. Some of t
 
 4. Solar:
 
-This app will allow citizens to see how much they could save, monetarily & energy-wise, by switching to solar power. Users can sign up for accounts and input details about their household: number of residents, avg utility costs, energy output(?), etc. They can then see how much cheaper their bills would be if they opted for greener solutions(solar panels, renewable energy, etc). we can show potential energy generation vs compare solar kWh to local Boston electricity kWh bills.
-  APIs/Datasets: 3 API, one DS
-   > https://data.boston.gov/dataset/city-of-boston-utility-data 
-   > https://utilityapi.com/
-   > https://www.causeweb.org/cause/resources/library/r1086
-   > [https://developer.nrel.gov/docs/solar/solar-resource-v1/](https://solcast.com/) -- gives exact metrics for solar energy production via long/lat
-   > https://developer.genability.com/how-to/bill-to-kwh/ -- specific task of genability api, which gives an estimate of a customer’s energy usage for a single billing period with just the cost of that bill.
-   > https://data.nrel.gov/submissions/149 -- community solar
-   > Can visualize solar savings with formulas (national average electricity rate as of October 2021 ($0.1411 per kWh) vs solar kWh)
+This app will allow citizens to see how much they could save, monetarily & energy-wise, by switching to solar power. Users can login to their utility provider (Coned, PECO) using the utilityapi and we can query which utilities they're looking to "solarize" according to subsequent form data. The form will also include details about their household: address, number of residents, avg utility costs, etc. From there, we can see how much energy solar solutions would generate according to the solcast API, which forecasts data for irradiance and PV power. The formula E = A x r x H x PR (Read more at: https://www.saurenergy.com/solar-energy-blog/here-is-how-you-can-calculate-the-annual-solar-energy-output-of-a-photovoltaic-system) will yield the kWh, which we can compare to the kWh from utilityapi. We will also show state solar tax incentives using this database (https://www.dsireusa.org/resources/data-and-tools/). Users can also see if their community offers community solar solutions by querying this database(https://data.nrel.gov/submissions/149). This will allow both low-income and hesitant users to get involved in solar, perhaps if they're not ready to fully commit or dont have the means to implement solar solutions fully.
+
+
+to consider:
+https://eta-publications.lbl.gov/sites/default/files/lbnl-6942e.pdf --> can calculate the increased home value of solar friendly home based on kWh/PV output.
