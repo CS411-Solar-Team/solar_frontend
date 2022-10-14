@@ -1,5 +1,5 @@
 # CS411_Project
-.
+
 1. Travel Planner: 
 
 When we are planning the trips, what we do is gather information from many platforms such as google, yelp, and social media. We need to do a lot of research and spend a lot of time planning the trip. So what we want to design is to provide a platform that can gather and process the information in the recommendation system to generate a travel plan which meets users' preferences and save them time.
