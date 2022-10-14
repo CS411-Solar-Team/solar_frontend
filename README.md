@@ -1,6 +1,15 @@
 # CS411_Project
 
-1. Travel Planner: 
+
+Top 1. Solar:
+
+This app will allow people to see how much money and energy they could save by switching to solar power. Users can login to their utility provider (Coned, PECO) using the utilityapi and we can query which utilities they're looking to "solarize" according to subsequent form data. The form will also include details about their household: address, number of residents, avg utility costs, etc. From there, we can see how much energy solar solutions would generate according to the solcast API, which forecasts data for irradiance and PV power. The formula E = A x r x H x PR (Read more at: https://www.saurenergy.com/solar-energy-blog/here-is-how-you-can-calculate-the-annual-solar-energy-output-of-a-photovoltaic-system) will yield the kWh, which we can compare to the kWh from utilityapi. We will also show state solar tax incentives using this database (https://www.dsireusa.org/resources/data-and-tools/). Users can also see if their community offers community solar solutions by querying this database(https://data.nrel.gov/submissions/149). The community solar optionality will allow everyone the potential to benefit through our app, even if their property is not well suited to rooftop solar or they lack the means to implement it fully (such as renters).
+
+to consider:
+https://eta-publications.lbl.gov/sites/default/files/lbnl-6942e.pdf --> can calculate the increased home value of solar friendly home based on kWh/PV output.
+
+
+Top 2. Travel Planner: 
 
 When we are planning the trips, what we do is gather information from many platforms such as google, yelp, and social media. We need to do a lot of research and spend a lot of time planning the trip. So what we want to design is to provide a platform that can gather and process the information in the recommendation system to generate a travel plan which meets users' preferences and save them time.
 
@@ -12,7 +21,15 @@ The APIs we can use are Google, Yelp, and Amedeus APIs to get the information of
    > https://www.yelp.com/developers/documentation/v3/get_started - Yelp APIs
    > https://developers.amadeus.com/self-service/category/covid-19-and-travel-safety/api-doc/safe-place/api-reference - Amadeus place APIs
 
-2. Boston Delivery Management System Web Application: 
+
+Backup. Util:
+
+Many people, myself included, have issues tracking recurring payments. Some of the largest of these payments are utility bills, such as monthly AC, electric, or water bills. This app will help users track their bills: when they recur, how much they pay, and how their payments stack up versus nearby payments/providers. Users can register for accounts for a streamlined dashboard, where their bills pop up in the order they're due.
+   > https://data.boston.gov/dataset/city-of-boston-utility-data 
+   > https://utilityapi.com/
+   
+
+Backup. Boston Delivery Management System Web Application: 
 
 Design a drone & robot delivery management system. We have a few bases in Boston to send out drone & robot to delivery package. Users can type their name pickup address, recevier's name and delivery address to create order in the order interface. The recommendation system generate delivery plans based on users' inputs in the plan interface. Users can also register for an account and login/logout to review their delivery status. Use Google Geolocation API or Pubnub to visualize the delivery status on the Google Map.
   APIs/Datasets: Google API(text search)/Pakage delivery time/Google Geolocation API
@@ -20,16 +37,5 @@ Design a drone & robot delivery management system. We have a few bases in Boston
 > https://data.boston.gov/dataset/traffic-related-data -- info on boston traffic, for contrast w/ drone services
 
 
-3. Util:
 
-Many people, myself included, have issues tracking recurring payments. Some of the largest of these payments are utility bills, such as monthly AC, electric, or water bills. This app will help users track their bills: when they recur, how much they pay, and how their payments stack up versus nearby payments/providers. Users can register for accounts for a streamlined dashboard, where their bills pop up in the order they're due.
-   > https://data.boston.gov/dataset/city-of-boston-utility-data 
-   > https://utilityapi.com/
-   
 
-4. Solar:
-
-This app will allow people to see how much money and energy they could save by switching to solar power. Users can login to their utility provider (Coned, PECO) using the utilityapi and we can query which utilities they're looking to "solarize" according to subsequent form data. The form will also include details about their household: address, number of residents, avg utility costs, etc. From there, we can see how much energy solar solutions would generate according to the solcast API, which forecasts data for irradiance and PV power. The formula E = A x r x H x PR (Read more at: https://www.saurenergy.com/solar-energy-blog/here-is-how-you-can-calculate-the-annual-solar-energy-output-of-a-photovoltaic-system) will yield the kWh, which we can compare to the kWh from utilityapi. We will also show state solar tax incentives using this database (https://www.dsireusa.org/resources/data-and-tools/). Users can also see if their community offers community solar solutions by querying this database(https://data.nrel.gov/submissions/149). The community solar optionality will allow everyone the potential to benefit through our app, even if their property is not well suited to rooftop solar or they lack the means to implement it fully (such as renters).
-
-to consider:
-https://eta-publications.lbl.gov/sites/default/files/lbnl-6942e.pdf --> can calculate the increased home value of solar friendly home based on kWh/PV output.
