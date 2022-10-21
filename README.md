@@ -7,7 +7,7 @@ This app will allow people to see how much money and energy they could save by s
 
 to consider:
 https://eta-publications.lbl.gov/sites/default/files/lbnl-6942e.pdf --> can calculate the increased home value of solar friendly home based on kWh/PV output.
-
+https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator#results --> shows the equivalency of emissions avoided
 
 Top 2. Travel Planner: 
 
