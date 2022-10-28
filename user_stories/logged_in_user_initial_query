@@ -1,0 +1,2 @@
+As a logged in user, I want to see how much energy I could save by switching to solar, so that I can be persuaded to switch to solar. 
+ > I can login to my provider through the UtilityAPI and fill out a short form in order to see metrics on my kWh, energy output, $$$ saved overall, and the potential solar energy I’d reap in my immediate area.
