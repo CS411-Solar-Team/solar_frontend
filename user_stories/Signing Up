@@ -1,3 +1,4 @@
 As a new user, I want to set up an account, so that I can start exploring the app. When I first go to the website:
 > I select an option to create a new account. When I select this, I am prompted to enter in some basic information such as username, password, and email. 
-Then, I am prompted to enter in my utility provider username and password, in order to have my bill information pulled from my electricity company directly.
+  Then, I am prompted to enter in my utility provider username and password, in order to have my bill information pulled from my electricity company 
+  directly.
