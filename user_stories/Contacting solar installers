@@ -1,2 +1,30 @@
 As a user, I would like to see how much I can save if I switch to solar, how much I need to pay for installing solar panels, and how to contact solar 
 company for panel installation when I use the application.
+
+Happy path:
+
+Login the account
+
+Enter the address
+
+Enter the kWh, energy output, and charged fees for one or more than one month
+
+Then get the amount of money I can save per month
+
+And get suggestions for installing solar panels, the estimated installation fees, and the information of the solar company such that name, phone number, email address, location
+
+Get the number of months after which the saved money can cover the total installation cost
+
+Unhappy path:
+
+Login the account
+
+Enter the address
+
+Enter the kWh, energy output, and charged fees for one or more than one month
+
+Then get an inappropriate number which can be saved per month after switching to solar energy and no suggestion of installation of solar panels
+
+The description of the feature:
+
+The feature is essential because users need a suggestion to install solar panels and users are seeking more information when using our application for convenience. So the information about solar companies provided by our website can help users save time searching for that information. Also, we can extend a feature in our application which is an appointment system to help users make appointments with solar companies for installing solar panels.
