@@ -1,25 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import SolarCompanyMainPage from "./SolarCompanyMainPage";
+import React from "react";
+import { Layout, Dropdown, Menu, Button } from "antd";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+const { Header, Content } = Layout;
+
+
+class App extends React.Component {
+  renderContent = () => {
+
+    return <SolarCompanyMainPage />;
+    
+  };
+
+  render() {
+    return (
+      <Layout style={{ height: "100vh" }}>
+        <Header style={{ display: "solar", justifyContent: "space-between" }}>
+          <div className="TitleText" style={{ fontSize: 36, fontWeight: 500 }}>
+            Solar
+          </div>
+
+        </Header>
+        <Content
+          style={{height: "calc(100% - 64px)", overflow: "auto" }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+          {this.renderContent()}
+        </Content>
+      </Layout>
+    );
+  }
 }
 
 export default App;
