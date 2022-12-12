@@ -1,6 +1,6 @@
-
 @import '~antd/dist/antd.css';
-@import "./style/CompanyList.css";
+@import "./style/NewPackage.css";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

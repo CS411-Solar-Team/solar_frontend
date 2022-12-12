@@ -12,15 +12,15 @@
 }
 
 .FormText {
-    color: rgb(255, 255, 255);
+    color: rgb(3, 33, 51);
   text-shadow:
     0 0 2px #fff,
 
-    0 0 5px rgb(136, 255, 215),
-    0 0 10px rgb(162, 255, 175),
+    0 0 5px rgb(243, 242, 190),
+    0 0 10px rgb(243, 242, 190),
 
-    0 0 20px rgb(0, 255, 64),
-    0 0 30px rgb(109, 255, 72);
+    0 0 20px rgb(243, 242, 190),
+    0 0 30px rgb(238, 235, 46),
 } 
 
 .TitleText {
